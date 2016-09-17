@@ -27,16 +27,36 @@
       <file leaf-file-name="WileyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-                <element signature="e#3495#3496#0" expanded="true" />
-                <element signature="e#3532#3533#0" expanded="true" />
-                <element signature="e#3626#3627#0" expanded="true" />
-                <element signature="e#3664#3665#0" expanded="true" />
-                <element signature="e#3718#3719#0" expanded="true" />
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+                <element signature="e#1921#1922#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2308#2309#0" expanded="true" />
+                <element signature="e#2394#2395#0" expanded="true" />
+                <element signature="e#4737#4738#0" expanded="true" />
+                <element signature="e#4836#4837#0" expanded="true" />
+                <element signature="e#4974#4975#0" expanded="true" />
+                <element signature="e#5068#5069#0" expanded="true" />
+                <element signature="e#5278#5279#0" expanded="true" />
+                <element signature="e#5332#5333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +65,8 @@
       <file leaf-file-name="StudentsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+            <state relative-caret-position="102">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/WileyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WileyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/vladimir/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java" />
       </list>
     </option>
@@ -236,7 +256,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.WileyTest">
-    <configuration default="false" name="WileyTest.check10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WileyTest.check5a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wiley.*" />
@@ -248,7 +268,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check10" />
+      <option name="METHOD_NAME" value="check5a" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -262,7 +282,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WileyTest.check11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WileyTest.check5b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wiley.*" />
@@ -274,7 +294,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check11" />
+      <option name="METHOD_NAME" value="check5b" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -288,7 +308,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WileyTest.check11_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WileyTest.check7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wiley.*" />
@@ -300,7 +320,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check11_12" />
+      <option name="METHOD_NAME" value="check7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -314,7 +334,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WileyTest.check5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WileyTest.check8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wiley.*" />
@@ -326,7 +346,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check5" />
+      <option name="METHOD_NAME" value="check8" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -768,19 +788,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest.check10" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check11" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check11_12" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest.check5a" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check5b" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check7" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check8" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check11_12" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check11" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest.check10" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check5b" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check8" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check7" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest.check5a" />
       </list>
     </recent_temporary>
   </component>
@@ -795,44 +815,44 @@
       <option name="presentableId" value="Default" />
       <updated>1474059643845</updated>
       <workItem from="1474059653639" duration="1843000" />
-      <workItem from="1474101210739" duration="31408000" />
+      <workItem from="1474101210739" duration="37757000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WileyTest - 2016.09.17 at 22h 09m 35s.xml">
+    <history-entry file="WileyTest - 2016.09.18 at 00h 51m 51s.xml">
       <configuration name="WileyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 21h 56m 29s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest - 2016.09.18 at 00h 54m 05s.xml">
+      <configuration name="WileyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 21h 57m 11s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5b - 2016.09.18 at 00h 33m 51s.xml">
+      <configuration name="WileyTest.check5b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 00m 21s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5b - 2016.09.18 at 00h 35m 30s.xml">
+      <configuration name="WileyTest.check5b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 01m 47s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5b - 2016.09.18 at 00h 38m 11s.xml">
+      <configuration name="WileyTest.check5b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 02m 33s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5b - 2016.09.18 at 00h 39m 54s.xml">
+      <configuration name="WileyTest.check5b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 03m 53s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5b - 2016.09.18 at 00h 42m 13s.xml">
+      <configuration name="WileyTest.check5b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 04m 53s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check7 - 2016.09.18 at 00h 29m 37s.xml">
+      <configuration name="WileyTest.check7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 05m 35s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check7 - 2016.09.18 at 00h 30m 37s.xml">
+      <configuration name="WileyTest.check7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 06m 38s.xml">
-      <configuration name="WileyTest.check5" configurationId="JUnit" />
+    <history-entry file="WileyTest_check8 - 2016.09.18 at 00h 32m 20s.xml">
+      <configuration name="WileyTest.check8" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33251000" />
+    <option name="totallyTimeSpent" value="39600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -846,7 +866,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.40387723" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707354" sideWeight="0.5961228" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707354" sideWeight="0.5961228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -942,20 +962,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+        <state relative-caret-position="102">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+        <state relative-caret-position="89">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,16 +984,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-            <element signature="e#3495#3496#0" expanded="true" />
-            <element signature="e#3532#3533#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-            <element signature="e#3664#3665#0" expanded="true" />
-            <element signature="e#3718#3719#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#4737#4738#0" expanded="true" />
+            <element signature="e#4836#4837#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+            <element signature="e#5068#5069#0" expanded="true" />
+            <element signature="e#5278#5279#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
           </folding>
         </state>
       </provider>

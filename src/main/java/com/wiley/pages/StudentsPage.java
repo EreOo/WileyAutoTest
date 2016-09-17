@@ -1,14 +1,9 @@
 package com.wiley.pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.ClickAction;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by Vladimir on 17.09.16.
@@ -22,8 +17,7 @@ public class StudentsPage {
     WebElement resources_for;
     @FindBy(className = "autonavLevel2")
     WebElement sub_resources_for;
-    @FindBy(css = "li.active.autonavItem.parent")
-    WebElement student_button;
+
 
 
     public StudentsPage(WebDriver webDriver) {
@@ -62,10 +56,23 @@ public class StudentsPage {
         return  webDriver.getCurrentUrl();
     }
 
-    public void isDifferentStyle(){
-        System.out.println("Present");
-          System.out.print(student_button.getCssValue("display"));
-        System.out.print(student_button.getAttribute("style"));
+    //сравниваем сss по background-color -> цвета отличаются возвращаем false check5a
+    public boolean isLikeStyle(){
+
+          return webDriver.findElement(By.tagName("span")).getCssValue("background-color").
+                equals(webDriver.findElement(By.className("autonavItem")).getCssValue("background-color"));
+
+    }
+
+    //попытка клика, если объект  not clikable -> ловим ошибку возвращаем false check5b
+    public boolean isСlickable(){
+        try {
+            webDriver.findElement(By.className("autonavLevel1")).findElement(By.tagName("span")).click();
+            return true;
+        }
+        catch (WebDriverException e){
+            return false;
+        }
 
     }
 

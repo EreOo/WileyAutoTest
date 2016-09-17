@@ -1,6 +1,7 @@
 package com.wiley.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -70,15 +71,24 @@ public class MainPage {
 
     //нажимаем на кнопку отправки email и получаем текст из алерта check7
     public String clickEmailButton(){
+        try{
         email_button.click();
-        return webDriver.switchTo().alert().getText();
+
+        return webDriver.switchTo().alert().getText();}
+        catch (NoAlertPresentException Ex){
+            return null;
+        }
     }
 
     //пишем адресс без @ и проверяем текст алерта check8
     public String setInvalidEmail(){
+      try{
         email_adress.sendKeys("inavalidEmail.com");
         email_button.click();
-        return webDriver.switchTo().alert().getText();
+        return webDriver.switchTo().alert().getText();}
+      catch (NoAlertPresentException Ex){
+          return null;
+      }
     }
 
     //вбиваем в поисковик данные и проверяем отображается ли на странице результат поиска check9
