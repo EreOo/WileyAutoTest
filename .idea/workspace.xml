@@ -27,24 +27,26 @@
       <file leaf-file-name="WileyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="163">
+              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3086#3087#0" expanded="true" />
-                <element signature="e#3185#3186#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
-                <element signature="e#3316#3317#0" expanded="true" />
+                <element signature="e#3396#3397#0" expanded="true" />
+                <element signature="e#3495#3496#0" expanded="true" />
+                <element signature="e#3532#3533#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="e#3664#3665#0" expanded="true" />
+                <element signature="e#3718#3719#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
+      <file leaf-file-name="StudentsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+            <state relative-caret-position="296">
+              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/WileyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WileyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/vladimir/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java" />
       </list>
     </option>
@@ -233,11 +235,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WileyTest.check8">
-    <configuration default="false" name="WileyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WileyTest">
+    <configuration default="false" name="WileyTest.check10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.wiley.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,8 +248,60 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="check10" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WileyTest.check11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="AutoTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wiley" />
+      <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
+      <option name="METHOD_NAME" value="check11" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WileyTest.check11_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="AutoTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wiley" />
+      <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
+      <option name="METHOD_NAME" value="check11_12" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -286,7 +340,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WileyTest.check6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WileyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wiley.*" />
@@ -298,60 +352,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wiley" />
       <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WileyTest.check7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wiley.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AutoTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wiley" />
-      <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check7" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WileyTest.check8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wiley.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AutoTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wiley" />
-      <option name="MAIN_CLASS_NAME" value="com.wiley.WileyTest" />
-      <option name="METHOD_NAME" value="check8" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -766,19 +768,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check6" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check7" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest.check8" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest.check10" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check11" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check11_12" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest.check8" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check7" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check6" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WileyTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WileyTest.check5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WileyTest.check11_12" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WileyTest.check11" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WileyTest.check10" />
       </list>
     </recent_temporary>
   </component>
@@ -793,44 +795,44 @@
       <option name="presentableId" value="Default" />
       <updated>1474059643845</updated>
       <workItem from="1474059653639" duration="1843000" />
-      <workItem from="1474101210739" duration="22284000" />
+      <workItem from="1474101210739" duration="31408000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WileyTest - 2016.09.17 at 19h 09m 25s.xml">
+    <history-entry file="WileyTest - 2016.09.17 at 22h 09m 35s.xml">
       <configuration name="WileyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest - 2016.09.17 at 19h 10m 48s.xml">
-      <configuration name="WileyTest" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 21h 56m 29s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 03m 08s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 21h 57m 11s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 04m 21s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 00m 21s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 05m 15s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 01m 47s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 06m 03s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 02m 33s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 07m 27s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 03m 53s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check6 - 2016.09.17 at 19h 08m 50s.xml">
-      <configuration name="WileyTest.check6" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 04m 53s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check7 - 2016.09.17 at 19h 19m 02s.xml">
-      <configuration name="WileyTest.check7" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 05m 35s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WileyTest_check8 - 2016.09.17 at 19h 23m 49s.xml">
-      <configuration name="WileyTest.check8" configurationId="JUnit" />
+    <history-entry file="WileyTest_check5 - 2016.09.17 at 22h 06m 38s.xml">
+      <configuration name="WileyTest.check5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24127000" />
+    <option name="totallyTimeSpent" value="33251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -940,22 +942,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+        <state relative-caret-position="327">
+          <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wiley/pages/StudentsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="296">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,14 +964,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiley/WileyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="163">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3086#3087#0" expanded="true" />
-            <element signature="e#3185#3186#0" expanded="true" />
-            <element signature="e#3222#3223#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3495#3496#0" expanded="true" />
+            <element signature="e#3532#3533#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3664#3665#0" expanded="true" />
+            <element signature="e#3718#3719#0" expanded="true" />
           </folding>
         </state>
       </provider>

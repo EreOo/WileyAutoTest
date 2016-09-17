@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -55,10 +56,17 @@ public class StudentsPage {
         return menuItems;
     }
 
-    //кликаем по кнопке домой ( и проверяем в тесте точно ли мы на главной стр.)
+    //кликаем по кнопке домой ( и проверяем в тесте точно ли мы на главной стр.) check6
     public String fromStudentsToMain(){
         webDriver.findElement(By.linkText("Home")).click();
         return  webDriver.getCurrentUrl();
+    }
+
+    public void isDifferentStyle(){
+        System.out.println("Present");
+          System.out.print(student_button.getCssValue("display"));
+        System.out.print(student_button.getAttribute("style"));
+
     }
 
 

@@ -21,7 +21,7 @@ public class WileyTest  {
     final String correctCheck3 = "http://eu.wiley.com/WileyCDA/Section/id-404702.html";
     //после students добавлено 2 li которых нет в ТЗ
     final String[] correctCheck4b ={"Authors","Librarians","Booksellers","Instructors","Students","Purchase Your WileyPLUS Registration Code","Getting Started with WileyPLUS and Blackboard",",”Government Employees”,","Societies","Corporate Partners"};
-
+    final String correctCheck11 = "https://edservices.wiley.com/";
 
     @Before
     public  void setUpWebDriver(){
@@ -88,6 +88,14 @@ public class WileyTest  {
     }
 
 
+    //!!!!!!!!!!!
+    @Test
+    public void check5(){
+        studentsPage = new StudentsPage(chromeWebDriver);
+        chromeWebDriver.get("http://eu.wiley.com/WileyCDA/Section/id-404702.html");
+        studentsPage.isDifferentStyle();
+    }
+
     @Test
     public void check6(){
         studentsPage = new StudentsPage(chromeWebDriver);
@@ -105,9 +113,25 @@ public class WileyTest  {
         Assert.assertTrue(mainPage.setInvalidEmail().equals("Invalid email address."));
     }
 
+
     @Test
+    public void check9(){
+        Assert.assertTrue(mainPage.isSearch());
+    }
 
+    @Test
+    public void check10(){
+        mainPage.searchAndClickBook();
+        Assert.assertTrue(chromeWebDriver.findElement(By.tagName("h1")).getText().equals("Self-sufficiency For Dummies Collection - Growing Your Own Fruit & Veg For Dummies/Keeping Chickens For Dummies UK Edition"));
+    }
 
+    //в ТЗ указан url http://wileyedsolutions.com/
+    // но по этой ссылке автоматически переключает на https://edservices.wiley.com/ по этому в тесте прописан второй url
+    @Test
+    public void check11_12(){
+        mainPage.toHomeAndtoInstitutions();
+        Assert.assertTrue(chromeWebDriver.getCurrentUrl().equals(correctCheck11));
+    }
 
     }
 
