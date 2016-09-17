@@ -1,7 +1,6 @@
 package com.wiley.pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.ClickAction;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -45,12 +44,10 @@ public class StudentsPage {
 
         String menuAll = resources_for.getText();
         String[] menuItems = menuAll.split("\n");
-
-        System.out.print(menuAll);
         return menuItems;
     }
 
-    //кликаем по кнопке домой ( и проверяем в тесте точно ли мы на главной стр.) check6
+    //кликаем по кнопке домой ( и проверяем в тесте - точно ли мы на главной стр.) check6
     public String fromStudentsToMain(){
         webDriver.findElement(By.linkText("Home")).click();
         return  webDriver.getCurrentUrl();
