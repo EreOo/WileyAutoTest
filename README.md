@@ -1,2 +1,2 @@
 # WileyAutoTest
-Авто тест сайста http://eu.wiley.com/WileyCDA/   
+Автоматизированный тест сайта http://eu.wiley.com/WileyCDA/   
